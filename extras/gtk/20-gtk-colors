@@ -1,0 +1,7 @@
+#!/bin/bash
+# Copy the GTK stylesheets rendered from the active theme into the GTK config
+# folders, so Files and other GTK apps follow the Omarchy theme.
+THEME_DIR="$HOME/.local/state/omarchy/current/theme"
+mkdir -p "$HOME/.config/gtk-4.0" "$HOME/.config/gtk-3.0"
+[[ -f $THEME_DIR/gtk.css ]]  && cp "$THEME_DIR/gtk.css"  "$HOME/.config/gtk-4.0/gtk.css"
+[[ -f $THEME_DIR/gtk3.css ]] && cp "$THEME_DIR/gtk3.css" "$HOME/.config/gtk-3.0/gtk.css"

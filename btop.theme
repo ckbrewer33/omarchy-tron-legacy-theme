@@ -1,0 +1,64 @@
+# Tron: Legacy — Grid look. Teal/cyan everywhere; yellow/red only for heat & load.
+theme[main_bg]="#0d151a"
+theme[main_fg]="#a6d8d6"
+theme[title]="#b0d3d5"
+theme[hi_fg]="#6fc3df"
+theme[selected_bg]="#24434a"
+theme[selected_fg]="#e9f9e9"
+theme[inactive_fg]="#5f777f"
+theme[graph_text]="#b0d3d5"
+theme[meter_bg]="#17232a"
+theme[proc_misc]="#6fc3df"
+
+# Box outlines: a single tonal family, like the Edex-UI panels
+theme[cpu_box]="#6fc3df"
+theme[mem_box]="#4fb5a0"
+theme[net_box]="#4a86a8"
+theme[proc_box]="#6b9a9d"
+theme[div_line]="#315255"
+
+# Temperature: cool teal -> amber -> red
+theme[temp_start]="#4fb5a0"
+theme[temp_mid]="#f0c034"
+theme[temp_end]="#e5483a"
+
+# CPU: deep teal -> cyan -> ice
+theme[cpu_start]="#315255"
+theme[cpu_mid]="#6fc3df"
+theme[cpu_end]="#e9f9e9"
+
+# Memory meters
+theme[free_start]="#315255"
+theme[free_mid]="#4fb5a0"
+theme[free_end]="#7fe0c4"
+theme[cached_start]="#2e4c5f"
+theme[cached_mid]="#4a86a8"
+theme[cached_end]="#6fc3df"
+theme[available_start]="#4fb5a0"
+theme[available_mid]="#7fe0c4"
+theme[available_end]="#a0e0e1"
+theme[used_start]="#4a86a8"
+theme[used_mid]="#6fc3df"
+theme[used_end]="#e9f9e9"
+
+# Network
+theme[download_start]="#315255"
+theme[download_mid]="#6fc3df"
+theme[download_end]="#e9f9e9"
+theme[upload_start]="#315255"
+theme[upload_mid]="#4fb5a0"
+theme[upload_end]="#7fe0c4"
+
+# Process list: teal -> cyan -> amber -> red as usage climbs
+theme[process_start]="#4fb5a0"
+theme[process_mid]="#6fc3df"
+theme[process_end]="#f0c034"
+
+theme[gradient_color_0]="#0d151a"
+theme[gradient_color_1]="#17232a"
+theme[gradient_color_2]="#24434a"
+theme[gradient_color_3]="#315255"
+theme[gradient_color_4]="#576466"
+theme[gradient_color_5]="#a6d8d6"
+theme[gradient_color_6]="#b0d3d5"
+theme[gradient_color_7]="#e9f9e9"
